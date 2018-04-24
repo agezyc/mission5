@@ -1,0 +1,38 @@
+<span style="font-family:'KaiTi_GB2312';"><span style="font-size:18px;"><!DOCTYPE html>  
+<html>  
+    <head>  
+        <meta charset="utf-8">  
+        <title>flex-shrink压缩</title>  
+        <style>  
+            .container{  
+                padding-top:20px;  
+                display: flex;  
+                width: 500px;/*当容器container的宽度200<项目item的宽度150*2  */  
+                height: 400px;  
+                background-color:#fff;  
+                 border: 2px solid #ddd;  
+            }  
+            .item{  
+                height: 30px;  
+                <span style="color:#ff0000;">flex-grow: 1;  
+                flex-basis: 50%;</span>  
+            }  
+            .item1{  
+                background-color: #ccc;  
+            }  
+            .item2{  
+                background-color: #999;  
+            }  
+        </style>  
+    </head>  
+    <body>  
+        <pre>  
+            希望两个项目的宽度是相同的，评分整个容器的宽度。  
+        </pre>  
+        <div class="container">  
+            <div class="item item1">1</div>  
+            <div class="item item2">2</div>  
+            <div class="item item2">2</div>  
+        </div>  
+    </body>  
+</html></span></span>  
