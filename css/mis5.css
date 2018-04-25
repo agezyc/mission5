@@ -76,7 +76,7 @@
 	height:20px;
 	width:20px;
 }
-.but2{
+/*.but2{
 	width:42%;
 	height:44px;
 	background: #5fc0cd;
@@ -87,6 +87,17 @@
 	color:white;
 	margin-right:4%;
 
+}
+用button可以直接平行在一列中，没有自动换行*/
+
+input[type="button"]{
+	width:45%;
+	background: #5fc0cd;
+	border:2px solid  #5fc0cd;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 44px;
+	color:white;
 }
 .pic{
 	background:url(../img/task5-1_02.png) no-repeat;
@@ -153,7 +164,7 @@
 	height: 50px;
 	
 	position: absolute;
-	left:116px;
+	margin-left:22px;
 	
 }
 .textstyle{
